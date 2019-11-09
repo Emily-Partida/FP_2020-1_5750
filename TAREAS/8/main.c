@@ -1,4 +1,4 @@
-//programa que recibe dos parametros y muestra la conversion de °C a °F y al revés
+//programa que recibe dos parametros y muestra la conversion de Â°C a Â°F y al revÃ©s
 #include <stdio.h>
 #include <stdlib.h>
 int main(int argc, char*argu[]){
@@ -7,13 +7,13 @@ float x;
 float y;
 float z;
 x=atof(argu[1]);//convertimos a flotantes
-y=atof(argu[2];
-if (x!=0){//Si X es diferente de 0 convertimos de °F a °C
+y=atof(argu[2]);
+if (x==1){//Si X es diferente de 0 convertimos de Â°F a Â°C
     z=(y-32)/1.8;//Colocamos formula para la conversion
     printf("%.2f\n", z);//mostramos el resultado
     return 0;
 }
-else if(x==0){//En otro caso si X es igul a 0 se convierte de °C a °F
+else if(x==0){//En otro caso si X es igul a 0 se convierte de Â°C a Â°F
     z=32+(y*1.8);//Colocamos formula para la conversion
     printf("%.2f\n", z);//mostramos el resultado
     return 0;
